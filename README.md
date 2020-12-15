@@ -28,7 +28,25 @@ The data relationship will look something like this:
 * An artist has many songs
 
 
-The tests are in the `spec/features` directory for each model. You will need to build in the ability to `create`, `update`, and `show` for each model. And for the song `show` page you need to have it display each of the song's genre and artist, and link to the respective genre and artist `show` pages.
+The tests are in the `spec/features` directory for each model. 
+
+You will need to build in the ability to `create`, `update`, and `show` for each model.
+
+<!-- Artists AND Genres
+      1. build new and create actions (strong params are neeeded)
+      2. build edit and update actions (strong params are needed) 
+      ** use form_for **
+
+      Stretch goals:
+        - display all songs for artist in artist#show
+        - display all songs under genre in genre#show 
+        - partials?
+        - validations?  -->
+
+
+And for the song `show` page you need to have it display each of the song's genre and artist, 
+
+and link to the respective genre and artist `show` pages.
 
 The database tables should look like this (note each column type):
 
